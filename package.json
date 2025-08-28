@@ -9,6 +9,9 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest run --coverage",
     "prepare": "npm run build"
   },
   "keywords": [
@@ -24,8 +27,12 @@
   "type": "module",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.4",
-    "@types/node": "^24.3.0",
     "tsx": "^4.20.5",
     "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@vitest/ui": "^3.2.4",
+    "vitest": "^3.2.4"
   }
 }
