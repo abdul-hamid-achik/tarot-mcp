@@ -22,9 +22,20 @@
     "ai",
     "llm"
   ],
-  "author": "Your Name",
+  "author": "Abdul Hamid Achik",
   "license": "MIT",
   "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdul-hamid-achik/tarot-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abdul-hamid-achik/tarot-mcp/issues"
+  },
+  "homepage": "https://github.com/abdul-hamid-achik/tarot-mcp#readme",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.4",
     "tsx": "^4.20.5",
@@ -32,6 +43,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
+    "@vitest/coverage-v8": "^3.2.4",
     "@vitest/ui": "^3.2.4",
     "vitest": "^3.2.4"
   }

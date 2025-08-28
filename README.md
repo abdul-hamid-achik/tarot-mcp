@@ -1,5 +1,11 @@
 # Tarot MCP Server
 
+[![CI](https://github.com/abdul-hamid-achik/tarot-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/abdul-hamid-achik/tarot-mcp/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/abdul-hamid-achik/tarot-mcp/branch/main/graph/badge.svg)](https://codecov.io/gh/abdul-hamid-achik/tarot-mcp)
+[![npm version](https://badge.fury.io/js/tarot-mcp.svg)](https://badge.fury.io/js/tarot-mcp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js Version](https://img.shields.io/node/v/tarot-mcp.svg)](https://nodejs.org)
+
 A Model Context Protocol (MCP) server that provides tarot card reading capabilities to AI assistants like Claude, Cursor, and other MCP-compatible tools.
 
 ## Features
